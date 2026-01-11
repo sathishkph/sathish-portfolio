@@ -1,9 +1,9 @@
 # sathish-portfolio
 
 personal portfolio
-![alt text](main-page.png)
-![alt text](about-section.png)
-![alt text](skill-expertise.png)
-![alt text](projects.png)
-![alt text](getintouch.png)
-![alt text](license.png)
+![alt text](demo-page/main-page.png)
+![alt text](demo-page/about-section.png)
+![alt text](demo-page/skill-expertise.png)
+![alt text](demo-page/projects.png)
+![alt text](demo-page/getintouch.png)
+![alt text](demo-page/license.png)

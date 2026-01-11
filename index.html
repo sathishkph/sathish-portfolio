@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sathish portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">Portfolio</div>
+      <!-- Hamburger -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav id="nav-menu" class="nav-menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main class="page-content">
+      <section class="home">
+        <div class="name-logo">PH</div>
+        <h1 class="content-greetings">Hi, I'm <span>Sathishkumar P H</span></h1>
+        <h2 class="content-designation">Full Stack Engineer</h2>
+        <p class="description">
+          I craft scalable, high-performance systems that bring ideas to life.
+          Focused on clean code, solid architecture, and building solutions that
+          scale.
+        </p>
+        <div class="content-button">
+          <a href="#contact" class="contact-button">Get In Touch</a>
+          <a class="project-button" href="#projects">View My Work</a>
+        </div>
+        <div class="contact-sites">
+          <a
+            class="social-link"
+            href="https://github.com/sathishkph"
+            target="_blank"
+          >
+            <img src="images/github-icon.png" alt="GitHub" />
+          </a>
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/sathishkph/"
+            target="_blank"
+          >
+            <img src="images/linkedin-icon.png" alt="linkedin" />
+          </a>
+          <a
+            class="social-link"
+            href="mailto:sathishkph@gmail.com"
+            target="_blank"
+          >
+            <img src="images/mail-icon.png" alt="mail" />
+          </a>
+        </div>
+      </section>
+      <section id="about" class="about-section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-left-section">
+            <p>
+              I’m a passionate full-stack engineer with 9+ years of experience
+              building scalable, high-performance applications that create real
+              business impact. I focus on clean architecture, maintainable code,
+              and intuitive user experiences.
+            </p>
+            <p>
+              What started as curiosity has grown into a career where I solve
+              complex engineering problems and transform ideas into reliable,
+              production-ready systems.
+            </p>
+
+            <p>
+              Beyond coding, I explore emerging technologies, build AI chatbots,
+              and enjoy collaborating with entrepreneurs to turn ideas into
+              products.
+            </p>
+            <div class="about-tags">
+              <span class="problem-solver-tag">Problem Solver</span>
+              <span class="fast-learner-tag">Fast Learner</span>
+              <span class="entrepreneurial-mindset-tag"
+                >Entrepreneurial Mindset</span
+              >
+              <span class="finfluencer-tag">Finfluencer</span>
+              <span class="team-player-tag">Team Player</span>
+            </div>
+          </div>
+
+          <div class="about-right-section">
+            <img src="images/temp-profile-pic.png" alt="profile-pic" />
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <p class="section-subtitle">
+          End-to-end skills to build, scale, and grow technology-driven
+          products.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>🧩 Engineering</h3>
+            <ul>
+              <li>Backend systems (Java, Spring Boot)</li>
+              <li>Microservices & distributed systems</li>
+              <li>Frontend & responsive UI</li>
+              <li>SQL & NoSQL databases</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>☁️ Cloud & Scaling</h3>
+            <ul>
+              <li>AWS / GCP / Azure</li>
+              <li>Docker & CI/CD pipelines</li>
+              <li>Monitoring & reliability</li>
+              <li>Cloud cost optimization</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>🤖 AI & Automation</h3>
+            <ul>
+              <li>AI chatbot development</li>
+              <li>Prompt engineering</li>
+              <li>AI API integrations</li>
+              <li>Workflow automation</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>🚀 Product & Business</h3>
+            <ul>
+              <li>MVP development</li>
+              <li>Product thinking</li>
+              <li>User feedback & iteration</li>
+              <li>Go-to-market alignment</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>🧠 Leadership</h3>
+            <ul>
+              <li>Problem solving</li>
+              <li>Team collaboration</li>
+              <li>Mentoring engineers</li>
+              <li>Stakeholder communication</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>💰 Finance & Growth</h3>
+            <ul>
+              <li>Financial planning & analysis</li>
+              <li>Cost optimization</li>
+              <li>Growth metrics (CAC, LTV, ROI)</li>
+              <li>Financial education & influence</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="project-section">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+          Real products built, shipped and scaled for real users.
+        </p>
+        <div class="projects-grid">
+          <!-- TMS -->
+          <div class="project-entry">
+            <div class="project-image-wrapper">
+              <img
+                class="project-image"
+                src="images/transaction-processing-system-140920.png"
+              />
+            </div>
+            <h3 class="project-title">Transaction Management System (TMS)</h3>
+            <p class="project-summary">
+              Enterprise platform to manage, process, and track business
+              transactions at scale with reliability and performance.
+            </p>
+            <p class="project-tags">
+              <span class="tag backend">Java</span>
+              <span class="tag backend">Spring Boot</span>
+              <span class="tag architecture">Microservices</span>
+              <span class="tag architecture">Distributed Systems</span>
+              <span class="tag enterprise">Cloud</span>
+            </p>
+          </div>
+          <!-- E-Commerce -->
+          <div class="project-entry">
+            <div class="project-image-wrapper">
+              <img
+                class="project-image"
+                src="images/ecommerce.png"
+                alt="E-commerce platform"
+              />
+            </div>
+
+            <h3 class="project-title">E-Commerce Platform</h3>
+            <p class="project-summary">
+              Led backend architecture and end-to-end system design, owning
+              APIs, domain models, and distributed workflows.
+            </p>
+            <p class="project-tags">
+              <span class="tag backend">Backend Systems</span>
+              <span class="tag architecture">Distributed Architecture</span>
+              <span class="tag backend">APIs</span>
+              <span class="tag architecture">Domain Modeling</span>
+            </p>
+          </div>
+          <!-- AI Portfolio Builder -->
+          <div class="project-entry">
+            <div class="project-image-wrapper">
+              <img class="project-image" src="images/ai-chat-bot.png" />
+            </div>
+            <h3 class="project-title">
+              Portfolio Builder (AI-Chatbot Assisted)
+            </h3>
+            <p class="project-summary">
+              AI-chatbot–assisted platform that helps individuals and companies
+              create, refine, and present their portfolios through guided,
+              conversational interactions.
+            </p>
+            <p class="project-tags">
+              <span class="tag ai">AI</span>
+              <span class="tag ai">Chatbot</span>
+              <span class="tag general">Personalization</span>
+              <span class="tag general">Automation</span>
+              <span class="tag general">Content Structuring</span>
+            </p>
+          </div>
+          <!-- ServiceNow ETA -->
+          <div class="project-entry">
+            <div class="project-image-wrapper">
+              <img
+                class="project-image"
+                src="images/predicitive-model-image.png"
+              />
+            </div>
+            <h3 class="project-title">Predictive Incident Ticket ETA</h3>
+            <p class="project-summary">
+              AI-driven system to predict ServiceNow incident resolution ETA,
+              enabling proactive SLA management and better incident
+              prioritization.
+            </p>
+            <p class="project-tags">
+              <span class="tag ai">AI</span>
+              <span class="tag ai">Predictive Analytics</span>
+              <span class="tag ai">Machine Learning</span>
+              <span class="tag enterprise">Enterprise Systems</span>
+              <span class="tag enterprise">ServiceNow Integration</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact-section">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          have a project in mind? Let's work together to create something
+          amazing
+        </p>
+        <div class="contact-info">
+          <div class="contact-info-left">
+            <h4 class="contact-info-left-title">
+              Let's talk about your project
+            </h4>
+            <p class="contact-info-left-description">
+              I'm excited to hear about your project and explore how we can
+              collaborate to bring your vision to life. Whether you have a clear
+              plan or just an idea, feel free to reach out.
+            </p>
+            <div class="contact-details">
+              <div class="contact-card">
+                <a
+                  href="mailto:sathishkph@gmail.com"
+                  target="_blank"
+                  class="contact-icon-link"
+                >
+                  <img src="images/mail-icon.png" alt="mail" />
+                </a>
+                <div class="contact-text">
+                  <p class="contact-label">Email</p>
+                  <p class="contact-value selectable">sathishkph@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <a
+                  href="https://www.linkedin.com/in/sathishkph/"
+                  target="_blank"
+                  class="contact-icon-link"
+                >
+                  <img src="images/linkedin-icon.png" alt="linkedin-icon" />
+                </a>
+                <div class="contact-text">
+                  <p class="contact-label">LinkedIn</p>
+                  <p class="contact-value selectable">
+                    linkedin.com/in/sathishkph/
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <a
+                  href="https://github.com/sathishkph"
+                  target="_blank"
+                  class="contact-icon-link"
+                >
+                  <img src="images/github-icon.png" alt="github-icon" />
+                </a>
+                <div class="contact-text">
+                  <p class="contact-label">GitHub</p>
+                  <p class="contact-value selectable">github.com/sathishkph</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info-right">
+            <p class="contact-name">Name</p>
+            <input type="text" class="contact-input" placeholder="Your Name" />
+            <p class="contact-email-label">Email</p>
+            <input
+              type="email"
+              class="contact-input"
+              placeholder="your.email@example.com"
+            />
+            <p class="contact-message-label">Message</p>
+            <textarea
+              class="contact-textarea"
+              placeholder="Write your message here..."
+            ></textarea>
+            <button class="send-message-button">Send Message</button>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-left">
+          <p class="footer-name">Sathishkumar P H</p>
+          <p class="footer-designation">Full Stack Engineer & Finfluencer</p>
+        </div>
+        <div class="footer-right">
+          <p>© 2025. All rights reserved.</p>
+          <p>Made with 💜 by Sathishkumar P H</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
