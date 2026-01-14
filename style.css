@@ -110,14 +110,22 @@ section {
     background-color: rgb(254, 249, 249); 
 }
 .name-logo {
-   background: linear-gradient(135deg, #5470fd, #7f58da);
-  color:white;
-  font-size: 48px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  padding:32px 32px;
-  font-weight: 500;
+  background: linear-gradient(135deg, #5470fd, #7f58da);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 32px;
-  margin-top: 140px;
+  margin-top: 140px;     /* ✅ important */
+}
+
+.name-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;     /* ✅ important */
+  border-radius: 50%;
 }
 @media (max-width: 768px) {
   .name-logo {
@@ -253,6 +261,7 @@ margin-bottom: 24px;
   border-radius: 20px ;
   height: 500px;
   margin: 50px 0px;
+  object-fit: cover;
 }
 .about-left-section {
 
