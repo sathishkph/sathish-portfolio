@@ -460,7 +460,8 @@ color:oklch(76.215% 0.17404 117.478);
 
 .contact-section {
   padding: 80px 20px;
-         background-color: rgb(254, 249, 249);
+  background-color: rgb(254, 249, 249);
+  align-items: stretch;   /* ✅ allow grid to expand */
 }
 
 .contact-section .section-title {
@@ -480,6 +481,9 @@ color:oklch(76.215% 0.17404 117.478);
 }
 
 
+
+
+
 /* =======================
    MAIN GRID
 ======================= */
@@ -488,9 +492,18 @@ color:oklch(76.215% 0.17404 117.478);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
-  max-width: 1200px;
   margin: 60px auto 0;
+  width: 100%;              /* force full width */
+  max-width: 1200px;
 }
+
+@media (max-width: 768px) {
+  .contact-info {
+    grid-template-columns: 1fr;
+     gap: 40px;
+  }
+}
+
 
 /* =======================
    LEFT SIDE
@@ -709,8 +722,5 @@ color:oklch(76.215% 0.17404 117.478);
     text-align: center;
   }
 }
-
-
-
 
 

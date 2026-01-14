@@ -11,3 +11,22 @@
         navMenu.classList.remove("active");
       });
     });
+
+    document.addEventListener("DOMContentLoaded", () => {
+  const text = "Sathishkumar P H";
+  const speed = 150; // typing speed in ms
+  let index = 0;
+
+  const typingElement = document.getElementById("typing-name");
+
+  function typeText() {
+    if (index < text.length) {
+      typingElement.textContent += text.charAt(index);
+      index++;
+      setTimeout(typeText, speed);
+    }
+  }
+
+  typeText();
+});
+
