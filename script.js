@@ -104,7 +104,7 @@ closeBtn.onclick = () => {
 
 sendBtn.onclick = sendChatBotMessage;
 input.addEventListener("keypress", (e) => {
-  if (e.key === "Enter") sendMessage();
+  if (e.key === "Enter") sendChatBotMessage();
 });
 
 //send chatbotmessage function
