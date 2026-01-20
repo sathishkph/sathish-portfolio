@@ -843,5 +843,20 @@ color:oklch(76.215% 0.17404 117.478);
   }
 }
 
+.success-popup {
+  position: fixed;
+  bottom: 120px;
+  right: 24px;
+  background: #16a34a;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-size: 14px;
+  box-shadow: 0 10px 30px rgba(22, 163, 74, 0.4);
+  display: none;
+  z-index: 9999;
+}
+
+
 
 

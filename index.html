@@ -329,20 +329,29 @@
           </div>
 
           <div class="contact-info-right">
-            <p class="contact-name">Name</p>
-            <input type="text" class="contact-input" placeholder="Your Name" />
+            <p class="contact-name-label">Name</p>
+            <input
+              type="text"
+              id="contact-name-input"
+              class="contact-input"
+              placeholder="Your Name"
+            />
             <p class="contact-email-label">Email</p>
             <input
               type="email"
+              id="contact-email-input"
               class="contact-input"
               placeholder="your.email@example.com"
             />
+
             <p class="contact-message-label">Message</p>
             <textarea
               class="contact-textarea"
               placeholder="Write your message here..."
             ></textarea>
-            <button class="send-message-button">Send Message</button>
+            <button id="send-message-button" class="send-message-button">
+              Send Message
+            </button>
           </div>
         </div>
       </section>
@@ -382,6 +391,9 @@
           />
           <button id="chatbot-send">Send</button>
         </div>
+      </div>
+      <div class="success-popup" id="success-popup">
+        ✅ Message sent successfully!
       </div>
     </main>
   </body>
